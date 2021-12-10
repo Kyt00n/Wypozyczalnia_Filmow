@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{B447A73F-5591-4C72-B3B2-7756346702F1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WypozyczalniaFilmow/Program.cs">
+    <Files>
+      <File FileName="WypozyczalniaFilmow/Program.cs" Line="1" Column="1" />
+      <File FileName="WypozyczalniaFilmow/Czlowiek.cs" Line="23" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WypozyczalniaFilmow" expanded="True">
+            <Node name="WypozyczalniaFilmow" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WypozyczalniaFilmow PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

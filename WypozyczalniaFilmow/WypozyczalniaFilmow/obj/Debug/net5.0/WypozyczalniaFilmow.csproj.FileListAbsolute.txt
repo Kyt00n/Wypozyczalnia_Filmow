@@ -1,0 +1,15 @@
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/bin/Debug/net5.0/WypozyczalniaFilmow.deps.json
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/bin/Debug/net5.0/WypozyczalniaFilmow.runtimeconfig.json
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/bin/Debug/net5.0/WypozyczalniaFilmow.runtimeconfig.dev.json
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/bin/Debug/net5.0/WypozyczalniaFilmow.dll
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/bin/Debug/net5.0/ref/WypozyczalniaFilmow.dll
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/bin/Debug/net5.0/WypozyczalniaFilmow.pdb
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/obj/Debug/net5.0/WypozyczalniaFilmow.csproj.AssemblyReference.cache
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/obj/Debug/net5.0/WypozyczalniaFilmow.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/obj/Debug/net5.0/WypozyczalniaFilmow.AssemblyInfoInputs.cache
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/obj/Debug/net5.0/WypozyczalniaFilmow.AssemblyInfo.cs
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/obj/Debug/net5.0/WypozyczalniaFilmow.csproj.CoreCompileInputs.cache
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/obj/Debug/net5.0/WypozyczalniaFilmow.dll
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/obj/Debug/net5.0/ref/WypozyczalniaFilmow.dll
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/obj/Debug/net5.0/WypozyczalniaFilmow.pdb
+/Users/kytoon/Desktop/3 semestr/ProgramowanieObiektowe/Wypozyczalnia_Filmow/WypozyczalniaFilmow/WypozyczalniaFilmow/obj/Debug/net5.0/WypozyczalniaFilmow.genruntimeconfig.cache
