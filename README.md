@@ -1,2 +1,2 @@
 # Wypozyczalnia_Filmow
-Projekt na Programowanie Obiektowe
+Aplikacja wykorzystując umiejętności twórców w dziedzinie programowania obiektowego oraz GUI symuluje wypożyczalnie filmów.
