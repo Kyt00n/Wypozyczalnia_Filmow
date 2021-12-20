@@ -1,0 +1,7 @@
+C:\Users\jswiderek\source\repos\projekcik\projekcik\bin\Debug\projekcik.exe.config
+C:\Users\jswiderek\source\repos\projekcik\projekcik\bin\Debug\projekcik.exe
+C:\Users\jswiderek\source\repos\projekcik\projekcik\bin\Debug\projekcik.pdb
+C:\Users\jswiderek\source\repos\projekcik\projekcik\obj\Debug\projekcik.csproj.AssemblyReference.cache
+C:\Users\jswiderek\source\repos\projekcik\projekcik\obj\Debug\projekcik.csproj.CoreCompileInputs.cache
+C:\Users\jswiderek\source\repos\projekcik\projekcik\obj\Debug\projekcik.exe
+C:\Users\jswiderek\source\repos\projekcik\projekcik\obj\Debug\projekcik.pdb
