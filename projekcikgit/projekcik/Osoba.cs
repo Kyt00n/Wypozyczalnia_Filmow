@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 namespace projekcik
 {
-    class Osoba
+    abstract class Osoba
     {
         string imie;
         string nazwisko;
@@ -24,7 +24,10 @@ namespace projekcik
         {
             this.imie = imie;
             this.nazwisko = nazwisko;
-            this.pesel = pesel;
+            if (SprawdzPesel(pesel))
+            {
+                this.pesel = pesel;
+            }
             this.numerTelefonu = numerTelefonu;
             this.wiek = wiek;
             this.email = email;
@@ -34,7 +37,7 @@ namespace projekcik
         {
             // 11 liczb
             if (!Regex.IsMatch(pesel, @"^1?(\d{11})"))
-                throw new Exception();
+                throw new BlednyPeselException();
 
             return Regex.IsMatch(pesel, @"^1?(\d{11})");
         }

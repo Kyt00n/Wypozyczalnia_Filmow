@@ -9,15 +9,15 @@ namespace projekcik
 {
     class Klient : Osoba
     {
-        string idKlienta;
+        int idKlienta;
         public static int licznik_klientow = 0;
         int do_Zaplaty;
 
-        public Klient(string imie, string nazwisko, string pesel, int numerTelefonu, int wiek, string email, string idKlienta, int do_Zaplaty) : base(imie, nazwisko, pesel, numerTelefonu, wiek, email)
+        public Klient(string imie, string nazwisko, string pesel, int numerTelefonu, int wiek, string email, int do_Zaplaty) : base(imie, nazwisko, pesel, numerTelefonu, wiek, email)
         {
-            this.idKlienta = idKlienta;
+            this.idKlienta = ++licznik_klientow;
             this.do_Zaplaty = do_Zaplaty;
-            Interlocked.Increment(ref licznik_klientow);
+            
         }
         
         public override string ToString()

@@ -9,13 +9,13 @@ namespace projekcik
 {
     class Pracownik : Osoba
     {
-        string idPracownika;
+        public int idPracownika;
         public static int licznik_pracownikow = 0;
 
-        public Pracownik(string imie, string nazwisko, string pesel, int numerTelefonu, int wiek, string email, string idPracownika) : base(imie, nazwisko, pesel, numerTelefonu, wiek, email)
+        public Pracownik(string imie, string nazwisko, string pesel, int numerTelefonu, int wiek, string email) : base(imie, nazwisko, pesel, numerTelefonu, wiek, email)
         {
-            this.idPracownika = idPracownika;
-            Interlocked.Increment(ref licznik_pracownikow);
+            this.idPracownika = ++licznik_pracownikow;
+            
         }
 
         public override string ToString()

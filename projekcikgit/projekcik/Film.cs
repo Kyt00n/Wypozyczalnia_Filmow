@@ -9,8 +9,8 @@ namespace projekcik
     public enum EnumGatunek { komedia, dramat, melodramat, fantasy, kryminał, horror, przygodowy, musical, sensacyjny, wojenny, western }
     class Film
     {
-        string nazwaFilmu;
-        EnumGatunek gatunekfilm;
+        public string nazwaFilmu;
+        public EnumGatunek gatunekfilm;
         int dl_w_min;
         string rezyser;
         string krajProdukcji;

@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BlednyPeselException.cs" />
     <Compile Include="Film.cs" />
     <Compile Include="Klient.cs" />
     <Compile Include="Osoba.cs" />
