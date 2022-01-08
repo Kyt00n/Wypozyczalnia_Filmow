@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace projekcik
 {
-    class Wypozyczalnia
+    [Serializable]
+    public class Wypozyczalnia :ICloneable
     {
         List<Wypozyczenie> wypozyczenia;
         List<Pracownik> pracownicy;
@@ -36,7 +39,7 @@ namespace projekcik
         {
             foreach(var x in wypozyczenia)
             {
-                if (x.idWypozyczenia == id)
+                if (x.IdWypozyczenia == id)
                 {
                     Console.WriteLine(x.ToString()); ;
                 }
@@ -46,7 +49,7 @@ namespace projekcik
         {
             foreach(var x in pracownicy)
             {
-                if (x.idPracownika == id)
+                if (x.IdPracownika == id)
                 {
                     pracownicy.Remove(x);
                     break;
@@ -57,7 +60,7 @@ namespace projekcik
         {
             foreach (var x in wypozyczenia)
             {
-                if (x.idWypozyczenia == id)
+                if (x.IdWypozyczenia == id)
                 {
                     wypozyczenia.Remove(x);
                     break;
@@ -68,7 +71,7 @@ namespace projekcik
         {
             foreach(var x in pracownicy)
             {
-                if(x.idPracownika == id)
+                if(x.IdPracownika == id)
                 {
                     return true;
                 }
@@ -83,7 +86,7 @@ namespace projekcik
         {
             foreach(var x in katalog)
             {
-                if (x.nazwaFilmu == nazwa)
+                if (x.NazwaFilmu == nazwa)
                 {
                     katalog.Remove(x);
                     break;
@@ -95,7 +98,7 @@ namespace projekcik
             List<Film> temp = new List<Film>() ;
             foreach(var x in katalog)
             {
-                if(x.gatunekfilm == gatunek)
+                if(x.Gatunekfilm == gatunek)
                 {
                     temp.Add(x);
                 }
@@ -107,7 +110,7 @@ namespace projekcik
             StringBuilder sb = new StringBuilder();
             foreach(var x in katalog)
             {
-                if (x.gatunekfilm == gatunek)
+                if (x.Gatunekfilm == gatunek)
                 {
                     sb.AppendLine(x.ToString());
                 }
@@ -136,5 +139,46 @@ namespace projekcik
             return "Nazwa wypożyczalni: " + nazwa + "\nOpłata podstawowa: " + oplata_podstawowa + "zł\nOpłata dodatkowa: " + oplata_dodatkowa +
                 "zł\nLista pracowników:\n" + stringBuilder1.ToString() + "\nLista wypożyczonych filmów:\n" + stringBuilder2.ToString();
         }
+
+        public object Clone()
+        {
+            Wypozyczalnia temp = new Wypozyczalnia();
+            List<Film> lista = new List<Film>();
+            foreach (Film x in katalog)
+            {
+                temp.DodajFilm((Film)x.Clone());
+            }
+            return temp;
+        }
+
+        public void ZapiszXML(string plik)
+        {
+            using (StreamWriter file = new StreamWriter(plik))
+            {
+                XmlSerializer xs = new XmlSerializer(typeof(Wypozyczalnia));
+                xs.Serialize(file, this);
+            }
+        }
+        public void Sortuj()
+        {
+            wypozyczenia.Sort();
+        }
+        public static Wypozyczalnia OdczytajXML(string plik)
+        {
+            if (!File.Exists(plik))
+            {
+                return null;
+            }
+            using (StreamReader file = new StreamReader(plik))
+            {
+                XmlSerializer xs = new XmlSerializer(typeof(Wypozyczalnia));
+                return (Wypozyczalnia)xs.Deserialize(file);
+            }
+        }
+        
     }
+
+
+
+    
 }

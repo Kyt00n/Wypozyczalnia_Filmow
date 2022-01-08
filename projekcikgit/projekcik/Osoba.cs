@@ -7,12 +7,12 @@ using System.Text.RegularExpressions;
 
 namespace projekcik
 {
-    abstract class Osoba
+    public abstract class Osoba
     {
         string imie;
         string nazwisko;
         string pesel;
-        int numerTelefonu;
+        string numerTelefonu;
         int wiek;
         string email;
 
@@ -20,7 +20,7 @@ namespace projekcik
         {
         }
 
-        public Osoba(string imie, string nazwisko, string pesel, int numerTelefonu, int wiek, string email) : this()
+        public Osoba(string imie, string nazwisko, string pesel, string numerTelefonu, int wiek, string email) : this()
         {
             this.imie = imie;
             this.nazwisko = nazwisko;
@@ -32,6 +32,13 @@ namespace projekcik
             this.wiek = wiek;
             this.email = email;
         }
+
+        public string Imie { get => imie; set => imie = value; }
+        public string Nazwisko { get => nazwisko; set => nazwisko = value; }
+        public string Pesel { get => pesel; set => pesel = value; }
+        public string NumerTelefonu { get => numerTelefonu; set => numerTelefonu = value; }
+        public int Wiek { get => wiek; set => wiek = value; }
+        public string Email { get => email; set => email = value; }
 
         public bool SprawdzPesel(string pesel)
         {

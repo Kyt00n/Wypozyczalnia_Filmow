@@ -6,15 +6,24 @@ using System.Threading.Tasks;
 
 namespace projekcik
 {
+    [Serializable]
     public enum EnumGatunek { komedia, dramat, melodramat, fantasy, kryminał, horror, przygodowy, musical, sensacyjny, wojenny, western }
-    class Film
+    [Serializable]
+    public class Film : IComparable<Film>, ICloneable
     {
-        public string nazwaFilmu;
-        public EnumGatunek gatunekfilm;
+        private string nazwaFilmu;
+        private EnumGatunek gatunekfilm;
         int dl_w_min;
         string rezyser;
         string krajProdukcji;
         int cena_w_zl;
+
+        public string NazwaFilmu { get => nazwaFilmu; set => nazwaFilmu = value; }
+        public EnumGatunek Gatunekfilm { get => gatunekfilm; set => gatunekfilm = value; }
+        public int Dl_w_min { get => dl_w_min; set => dl_w_min = value; }
+        public string Rezyser { get => rezyser; set => rezyser = value; }
+        public string KrajProdukcji { get => krajProdukcji; set => krajProdukcji = value; }
+        public int Cena_w_zl { get => cena_w_zl; set => cena_w_zl = value; }
 
         public Film()
         {
@@ -30,9 +39,21 @@ namespace projekcik
             this.cena_w_zl = cena_w_zl;
         }
 
+        public int CompareTo(Film other)
+        {
+            int x = NazwaFilmu.CompareTo(other.NazwaFilmu);
+            if (x != 0) return x;
+            return Rezyser.CompareTo(other.rezyser);
+        }
+
         public override string ToString()
         {
             return $"{cena_w_zl}zł - {nazwaFilmu} {dl_w_min}min., {krajProdukcji}; Gat. {gatunekfilm}, Reż. {rezyser}";
+        }
+
+        public object Clone()
+        {
+            return this.MemberwiseClone();
         }
     }
 }
