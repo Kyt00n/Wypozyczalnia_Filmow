@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wypozyczalnia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Wypozyczenia>
+    <Wypozyczenie>
+      <Wypozyczony_film>
+        <NazwaFilmu>Spiderman</NazwaFilmu>
+        <Gatunekfilm>przygodowy</Gatunekfilm>
+        <Dl_w_min>93</Dl_w_min>
+        <Rezyser>Spike Lee</Rezyser>
+        <KrajProdukcji>Rumunia</KrajProdukcji>
+        <Cena_w_zl>32</Cena_w_zl>
+      </Wypozyczony_film>
+      <Wypozyczony_przez>
+        <Imie>Marek</Imie>
+        <Nazwisko>Nowak</Nazwisko>
+        <Pesel>23456789012</Pesel>
+        <NumerTelefonu>888999111</NumerTelefonu>
+        <Wiek>18</Wiek>
+        <Email>bbb@abc.com</Email>
+      </Wypozyczony_przez>
+      <Data_wypozyczenia>2021-01-21T00:00:00</Data_wypozyczenia>
+      <Data_oddania>2021-03-21T00:00:00</Data_oddania>
+      <IdWypozyczenia>1</IdWypozyczenia>
+    </Wypozyczenie>
+    <Wypozyczenie>
+      <Wypozyczony_film>
+        <NazwaFilmu>Spiderman</NazwaFilmu>
+        <Gatunekfilm>przygodowy</Gatunekfilm>
+        <Dl_w_min>93</Dl_w_min>
+        <Rezyser>Spike Lee</Rezyser>
+        <KrajProdukcji>Rumunia</KrajProdukcji>
+        <Cena_w_zl>32</Cena_w_zl>
+      </Wypozyczony_film>
+      <Wypozyczony_przez>
+        <Imie>Anita</Imie>
+        <Nazwisko>Zielona</Nazwisko>
+        <Pesel>34567890123</Pesel>
+        <NumerTelefonu>777888999</NumerTelefonu>
+        <Wiek>21</Wiek>
+        <Email>ccc@abc.com</Email>
+      </Wypozyczony_przez>
+      <Data_wypozyczenia>2022-01-22T00:00:00</Data_wypozyczenia>
+      <Data_oddania>2022-01-23T00:00:00</Data_oddania>
+      <IdWypozyczenia>2</IdWypozyczenia>
+    </Wypozyczenie>
+  </Wypozyczenia>
+  <Pracownicy>
+    <Pracownik>
+      <Imie>Juliusz</Imie>
+      <Nazwisko>Cezar</Nazwisko>
+      <Pesel>56789012345</Pesel>
+      <NumerTelefonu>767878989</NumerTelefonu>
+      <Wiek>27</Wiek>
+      <Email>eee@abc.com</Email>
+      <IdPracownika>2</IdPracownika>
+    </Pracownik>
+  </Pracownicy>
+  <Katalog>
+    <Film>
+      <NazwaFilmu>Spiderman</NazwaFilmu>
+      <Gatunekfilm>przygodowy</Gatunekfilm>
+      <Dl_w_min>93</Dl_w_min>
+      <Rezyser>Spike Lee</Rezyser>
+      <KrajProdukcji>Rumunia</KrajProdukcji>
+      <Cena_w_zl>32</Cena_w_zl>
+    </Film>
+  </Katalog>
+  <Nazwa>Halko</Nazwa>
+  <Oplata_podstawowa>2.4</Oplata_podstawowa>
+  <Oplata_dodatkowa>3.5</Oplata_dodatkowa>
+</Wypozyczalnia>

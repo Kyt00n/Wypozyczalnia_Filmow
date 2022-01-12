@@ -27,6 +27,7 @@ namespace projekcik
             Console.WriteLine(wypozyczalnia1);
             wypozyczalnia1.WypiszWypozyczenie(2);
             Console.WriteLine(wypozyczalnia1.wyszukajPoKategoriiString(EnumGatunek.przygodowy));
+            wypozyczalnia1.ZapiszXML("netflix.xml");
             Console.ReadLine();
         }
     }
