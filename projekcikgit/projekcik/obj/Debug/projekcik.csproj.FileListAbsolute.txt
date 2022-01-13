@@ -12,3 +12,11 @@ C:\Users\ero20\Documents\GitHub\Wypozyczalnia_Filmow\projekcikgit\projekcik\obj\
 C:\Users\ero20\Documents\GitHub\Wypozyczalnia_Filmow\projekcikgit\projekcik\obj\Debug\projekcik.csproj.CoreCompileInputs.cache
 C:\Users\ero20\Documents\GitHub\Wypozyczalnia_Filmow\projekcikgit\projekcik\obj\Debug\projekcik.exe
 C:\Users\ero20\Documents\GitHub\Wypozyczalnia_Filmow\projekcikgit\projekcik\obj\Debug\projekcik.pdb
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\projekcik\bin\Debug\projekcik.pdb
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\projekcik\obj\Debug\projekcik.csprojAssemblyReference.cache
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\projekcik\obj\Debug\projekcik.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\projekcik\obj\Debug\projekcik.pdb
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\projekcik\bin\Debug\projekcik_dokumentacja.xml
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\projekcik\bin\Debug\projekcik.exe.config
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\projekcik\bin\Debug\projekcik.exe
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\projekcik\obj\Debug\projekcik.exe

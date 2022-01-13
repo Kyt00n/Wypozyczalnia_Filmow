@@ -1,0 +1,522 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>projekcik</name>
+    </assembly>
+    <members>
+        <member name="T:projekcik.EnumGatunek">
+            <summary>
+            Typ enum określa Gatunek filmu
+            </summary>
+        </member>
+        <member name="F:projekcik.EnumGatunek.komedia">
+            <summary>
+            Pierwszy typ
+            </summary>
+        </member>
+        <member name="F:projekcik.EnumGatunek.dramat">
+            <summary>
+            Drugi typ
+            </summary>
+        </member>
+        <member name="F:projekcik.EnumGatunek.melodramat">
+            <summary>
+            Trzeci typ
+            </summary>
+        </member>
+        <member name="F:projekcik.EnumGatunek.fantasy">
+            <summary>
+            Czwarty typ
+            </summary>
+        </member>
+        <member name="F:projekcik.EnumGatunek.kryminał">
+            <summary>
+            Piąty typ
+            </summary>
+        </member>
+        <member name="F:projekcik.EnumGatunek.horror">
+            <summary>
+            Szósty typ
+            </summary>
+        </member>
+        <member name="F:projekcik.EnumGatunek.przygodowy">
+            <summary>
+            Siódmy typ
+            </summary>
+        </member>
+        <member name="F:projekcik.EnumGatunek.musical">
+            <summary>
+            Ósmy typ
+            </summary>
+        </member>
+        <member name="F:projekcik.EnumGatunek.sensacyjny">
+            <summary>
+            Dziweiąty typ
+            </summary>
+        </member>
+        <member name="F:projekcik.EnumGatunek.wojenny">
+            <summary>
+            Dziesiąty typ
+            </summary>
+        </member>
+        <member name="F:projekcik.EnumGatunek.western">
+            <summary>
+            Jedynasty typ
+            </summary>
+        </member>
+        <member name="T:projekcik.Film">
+            <summary>
+            Klasa Film opisuje filmy w naszej Wypożyczalni
+            </summary>
+        </member>
+        <member name="T:projekcik.Film.EnumGatunek">
+            <summary>
+            Typ enum określa Gatunek filmu
+            </summary>
+        </member>
+        <member name="F:projekcik.Film.EnumGatunek.komedia">
+            <summary>
+            Pierwszy typ
+            </summary>
+        </member>
+        <member name="F:projekcik.Film.EnumGatunek.dramat">
+            <summary>
+            Drugi typ
+            </summary>
+        </member>
+        <member name="F:projekcik.Film.EnumGatunek.melodramat">
+            <summary>
+            Trzeci typ
+            </summary>
+        </member>
+        <member name="F:projekcik.Film.EnumGatunek.fantasy">
+            <summary>
+            Czwarty typ
+            </summary>
+        </member>
+        <member name="F:projekcik.Film.EnumGatunek.kryminał">
+            <summary>
+            Piąty typ
+            </summary>
+        </member>
+        <member name="F:projekcik.Film.EnumGatunek.horror">
+            <summary>
+            Szósty typ
+            </summary>
+        </member>
+        <member name="F:projekcik.Film.EnumGatunek.przygodowy">
+            <summary>
+            Siódmy typ
+            </summary>
+        </member>
+        <member name="F:projekcik.Film.EnumGatunek.musical">
+            <summary>
+            Ósmy typ
+            </summary>
+        </member>
+        <member name="F:projekcik.Film.EnumGatunek.sensacyjny">
+            <summary>
+            Dziweiąty typ
+            </summary>
+        </member>
+        <member name="F:projekcik.Film.EnumGatunek.wojenny">
+            <summary>
+            Dziesiąty typ
+            </summary>
+        </member>
+        <member name="F:projekcik.Film.EnumGatunek.western">
+            <summary>
+            Jedynasty typ
+            </summary>
+        </member>
+        <member name="P:projekcik.Film.NazwaFilmu">
+            <summary>
+            Hermetyzacja Nazwy Filmu
+            </summary>
+        </member>
+        <member name="P:projekcik.Film.Gatunekfilm">
+            <summary>
+            Hermetyzacja Gatunku
+            </summary>
+        </member>
+        <member name="P:projekcik.Film.Dl_w_min">
+            <summary>
+            Hermetyzacja długości filmu
+            </summary>
+        </member>
+        <member name="P:projekcik.Film.Rezyser">
+            <summary>
+            Hermetyzacja Reżysera
+            </summary>
+        </member>
+        <member name="P:projekcik.Film.KrajProdukcji">
+            <summary>
+            Hermetyzacja Kraju Produkcji
+            </summary>
+        </member>
+        <member name="P:projekcik.Film.Cena_w_zl">
+            <summary>
+            Hermetyzacja Ceny
+            </summary>
+        </member>
+        <member name="M:projekcik.Film.#ctor">
+            <summary>
+            Konstruktor nieparametryczny
+            </summary>
+        </member>
+        <member name="M:projekcik.Film.#ctor(System.String,projekcik.Film.EnumGatunek,System.Int32,System.String,System.String,System.Int32)">
+            <summary>
+            Konstruktor parametryczny
+            </summary>
+        </member>
+        <member name="M:projekcik.Film.CompareTo(projekcik.Film)">
+            <summary>
+            Funkcja porównuje dwa filmy
+            </summary>
+            <param name="other">To paramter który opisuje drugi film</param>
+            <returns>Zwraca 0 lub wartość ujemne lub dodatnie w zależności od wyniku porównania</returns>
+        </member>
+        <member name="M:projekcik.Film.ToString">
+            <summary>
+            Funkcja opisuje Film
+            </summary>
+            <returns>Zwraca napis z  danymi o filmie</returns>
+        </member>
+        <member name="M:projekcik.Film.Clone">
+            <summary>
+            Funkcja klonuje film
+            </summary>
+            <returns>Zwraca klona filmu</returns>
+        </member>
+        <member name="T:projekcik.Klient">
+            <summary>
+            Klient dziedziczy po klasie Osoba i opisuje Klienta naszej Wypożyczalni
+            </summary>
+        </member>
+        <member name="F:projekcik.Klient.licznik_klientow">
+            <summary>
+            Licznik klientów wypożyczalni
+            </summary>
+        </member>
+        <member name="M:projekcik.Klient.#ctor">
+            <summary>
+            Konstruktor nieparametryczny
+            </summary>
+        </member>
+        <member name="M:projekcik.Klient.#ctor(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Int32)">
+            <summary>
+            Konstruktor parametryczny
+            </summary>
+        </member>
+        <member name="M:projekcik.Klient.ToString">
+            <summary>
+            Funkcja dostracza danych o kliencie
+            </summary>
+            <returns>Zwraca napis z danymi kilenta</returns>
+        </member>
+        <member name="M:projekcik.Klient.CompareTo(projekcik.Klient)">
+            <summary>
+            Funkcja porównuje dwóch klientów
+            </summary>
+            <param name="other">Parametr to po prostu Klient do którego będziemy porównywać</param>
+            <returns>Zwraca 0 lub wartość ujemne lub dodatnie w zależności od wyniku porównania</returns>
+        </member>
+        <member name="T:projekcik.Osoba">
+            <summary>
+            Klasa Osoba stanowi podstawę dla wielu klas obecnych w naszym projekcie
+            </summary>
+        </member>
+        <member name="M:projekcik.Osoba.#ctor">
+            <summary>
+            Konstruktor nieparametryczny
+            </summary>
+        </member>
+        <member name="M:projekcik.Osoba.#ctor(System.String,System.String,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Konstruktor parametryczny
+            </summary>
+        </member>
+        <member name="P:projekcik.Osoba.Imie">
+            <summary>
+            Hermetyzacja Imienia
+            </summary>
+        </member>
+        <member name="P:projekcik.Osoba.Nazwisko">
+            <summary>
+            Hermetyzacja Nazwiska
+            </summary>
+        </member>
+        <member name="P:projekcik.Osoba.Pesel">
+            <summary>
+            Hermetyzacja Peselu
+            </summary>
+        </member>
+        <member name="P:projekcik.Osoba.NumerTelefonu">
+            <summary>
+            Hermetyzacja Numeru Telefonu
+            </summary>
+        </member>
+        <member name="P:projekcik.Osoba.Wiek">
+            <summary>
+            Hermetyzacja Wieku
+            </summary>
+        </member>
+        <member name="P:projekcik.Osoba.Email">
+            <summary>
+            Hermetyzacja maila
+            </summary>
+        </member>
+        <member name="M:projekcik.Osoba.SprawdzPesel(System.String)">
+            <summary>
+            Funkcja sprawdza czy dany pesel jest poprawny
+            </summary>
+            <param name="pesel">Paramter to po prostu pesel</param>
+            <returns>Zwarca true lub rzuca błędem w zależności od wyniku sprawdzenia</returns>
+        </member>
+        <member name="M:projekcik.Osoba.ToString">
+            <summary>
+            Funkcja dostarcza informacji o Osobie
+            </summary>
+            <returns>Zawarca napis z danymi o Osobie</returns>
+        </member>
+        <member name="T:projekcik.Pracownik">
+            <summary>
+            Klasa Pracownik określa pracownika Wypożyczyalni
+            </summary>
+        </member>
+        <member name="P:projekcik.Pracownik.IdPracownika">
+            <summary>
+            Hermetyzacja pola ID Pracownika
+            </summary>
+        </member>
+        <member name="P:projekcik.Pracownik.Licznik_pracownikow">
+            <summary>
+            Hermetyzacja Licznika Pracowników
+            </summary>
+        </member>
+        <member name="M:projekcik.Pracownik.#ctor">
+            <summary>
+            Konstruktor nie parametryczny
+            </summary>
+        </member>
+        <member name="M:projekcik.Pracownik.#ctor(System.String,System.String,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Konstruktor parametryczny
+            </summary>
+        </member>
+        <member name="M:projekcik.Pracownik.ToString">
+            <summary>
+            Funkcja opisuje wszystkie pola klasy Pracownik
+            </summary>
+            <returns>Zawraca napis będący połączeniem podstawowych danych o naszym pracowniku</returns>
+        </member>
+        <member name="T:projekcik.Wypozyczalnia">
+            <summary>
+            Klasa Wypożyczalnia stanowi oś projektu opisując udając standardową wypożyczalnię
+            </summary>
+        </member>
+        <member name="P:projekcik.Wypozyczalnia.Wypozyczenia">
+            <summary>
+            Hermetyzacja Listy z Wypożyczeniami
+            </summary>
+        </member>
+        <member name="P:projekcik.Wypozyczalnia.Pracownicy">
+            <summary>
+            Hermetyzacja Listy z Pracownikami
+            </summary>
+        </member>
+        <member name="P:projekcik.Wypozyczalnia.Katalog">
+            <summary>
+            Hermetyzacja Listy z Filmami
+            </summary>
+        </member>
+        <member name="P:projekcik.Wypozyczalnia.Nazwa">
+            <summary>
+            Hermetyzacja Nazwy wypożyczalni
+            </summary>
+        </member>
+        <member name="P:projekcik.Wypozyczalnia.Oplata_podstawowa">
+            <summary>
+            Hermetyzacja opłaty podstawowej
+            </summary>
+        </member>
+        <member name="P:projekcik.Wypozyczalnia.Oplata_dodatkowa">
+            <summary>
+            Hermetyzacja opłaty dodatkowej
+            </summary>
+        </member>
+        <member name="P:projekcik.Wypozyczalnia.Klienci">
+            <summary>
+            Hermetyzacja listy klientów
+            </summary>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.#ctor">
+            <summary>
+            Konstruktor nieparametryczny
+            </summary>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.UmiescKlienta(projekcik.Klient)">
+            <summary>
+            Funkcja umieszcza Klientów na liście klientów wypożyczalni
+            </summary>
+            <param name="t">Paramter określa klienta</param>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.UmiescPracownikow(projekcik.Pracownik)">
+            <summary>
+            Funkcja umieszcza pracownika na liście pracowników
+            </summary>
+            <param name="t">Paramter opisuje instancję klasy Pracownik</param>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.UmiescWypozyczenia(projekcik.Wypozyczenie)">
+            <summary>
+            Funkcja umieszcza wypożyczenie na liście wypozyczeń
+            </summary>
+            <param name="x">Paramter opisuje instancję klasy Wypożyczenie</param>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.WypiszWypozyczenie(System.Int32)">
+            <summary>
+            Funkcja wypisuje Wypożyczenie o odpowiednim nr ID
+            </summary>
+            <param name="id">Paramter opisuje instancję klasy Wypożyczenie poprzez jego ID</param>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.UsunPracownika(System.Int32)">
+            <summary>
+            Funkcja usuwa Pracownika z listy
+            </summary>
+            <param name="id">Parametr pomaga określić którego Pracownika usunąć w zależności od jego nr ID</param>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.UsunWypozyczenie(System.Int32)">
+            <summary>
+            Funkcja usuwa Wypożyczenie z listy
+            </summary>
+            <param name="id">Parametr pomaga określić które Wypożyczenie usunąć w zależności od jego nr ID</param>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.PracownikIstnieje(System.Int32)">
+            <summary>
+            Funkcja sprawdza czy posiadamy danego pracownika na liście prac
+            </summary>
+            <param name="id">Paramter określa numer ID pracownika którego szukamy</param>
+            <returns>Zwraca true lub false w zależności czy pracownik o danym ID istnieje</returns>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.DodajFilm(projekcik.Film)">
+            <summary>
+            Funkcja dodaje film do listy Filmów Wypożyczalni
+            </summary>
+            <param name="film">Parametr określa którą instancje klasy Film dodajemy</param>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.UsunFilm(System.String)">
+            <summary>
+            Funkcja usuwa film z Listy filmów Wypożyczalni
+            </summary>
+            <param name="nazwa">Paramter pozwala zidentyfikować film do usunięcia dzięki jego nazwie</param>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.wyszukajPoKategorii(projekcik.EnumGatunek)">
+            <summary>
+            Wyszukuje wszystkie filmu z listy Filmów o danym gatunku
+            </summary>
+            <param name="gatunek">Pozwala określić gatunek którego poszukujemy</param>
+            <returns>Zwraca listę z filmami danego gatunku</returns>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.wyszukajPoKategoriiString(projekcik.EnumGatunek)">
+            <summary>
+            Wyszukuje wszystkie filmu z listy Filmów o danym gatunku
+            </summary>
+            <param name="gatunek">Pozwala określić gatunek którego poszukujemy</param>
+            <returns>Zwraca napis z filmami danego gatunku</returns>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.#ctor(System.String,System.Double,System.Double)">
+            <summary>
+            Konstruktor parametryczny
+            </summary>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.ToString">
+            <summary>
+            Funkcja dostracza informacjo o Wypożyczalni
+            </summary>
+            <returns>Zwraca napis z danymi o Wypozyczalni</returns>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.Clone">
+            <summary>
+            Funkcja klonuje Wypożyczalnię
+            </summary>
+            <returns>Zwarca klona Wypożyczalni</returns>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.ZapiszXML(System.String)">
+            <summary>
+            Funkcja zapisuje do pliku XML Wypożyczalnię
+            </summary>
+            <param name="plik"></param>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.Sortuj">
+            <summary>
+            Funkcja sortuje Listę z Wypożyczeniami
+            </summary>
+        </member>
+        <member name="M:projekcik.Wypozyczalnia.OdczytajXML(System.String)">
+            <summary>
+            Funkcja odczytuje Wypozyczalnie z pliku XML
+            </summary>
+            <param name="plik"></param>
+            <returns></returns>
+        </member>
+        <member name="T:projekcik.Wypozyczenie">
+            <summary>
+            Klasa Wypozyczenie określa fakt wypożyczenia Filmu przez danego Klienta 
+            </summary>
+        </member>
+        <member name="P:projekcik.Wypozyczenie.Wypozyczony_film">
+            <summary>
+            Hermetyzacja pola Wypozyczony Film
+            </summary>
+        </member>
+        <member name="P:projekcik.Wypozyczenie.Wypozyczony_przez">
+            <summary>
+            Hermetyzacja pola Klienta który Film wypozycza
+            </summary>
+        </member>
+        <member name="P:projekcik.Wypozyczenie.Data_wypozyczenia">
+            <summary>
+            Hermetyzacja Daty wypożyczenia
+            </summary>
+        </member>
+        <member name="P:projekcik.Wypozyczenie.Data_oddania">
+            <summary>
+            Hermetyzacja Daty oddania
+            </summary>
+        </member>
+        <member name="P:projekcik.Wypozyczenie.IdWypozyczenia">
+            <summary>
+            Hermetyzacja ID wypożyczenia
+            </summary>
+        </member>
+        <member name="M:projekcik.Wypozyczenie.#ctor">
+            <summary>
+            Konstruktor nieparametryczny
+            </summary>
+        </member>
+        <member name="M:projekcik.Wypozyczenie.#ctor(projekcik.Film,projekcik.Klient,System.String,System.String)">
+            <summary>
+            Konstruktor parametryczny 
+            </summary>
+        </member>
+        <member name="M:projekcik.Wypozyczenie.ToString">
+            <summary>
+            Funkcja dostarcza napis opisujący Wypożyczenie
+            </summary>
+            <returns>Zwraca napis z danymi dotyczącymi wypożyczenia</returns>
+        </member>
+        <member name="M:projekcik.Wypozyczenie.Clone">
+            <summary>
+            Funkcja klonuje wypozyczenie
+            </summary>
+            <returns>Zwraca klona wypozyczenia</returns>
+        </member>
+        <member name="M:projekcik.Wypozyczenie.CompareTo(projekcik.Wypozyczenie)">
+            <summary>
+            Funkcja porównuje dwa wypożyczenia
+            </summary>
+            <param name="other">Parametr to po prostu inne Wypożyczenie</param>
+            <returns>Zwraca 0,liczbę ujemna lub dodatnią w zależności od wyniku porównania</returns>
+        </member>
+    </members>
+</doc>

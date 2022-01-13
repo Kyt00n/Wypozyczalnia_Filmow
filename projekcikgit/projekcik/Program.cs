@@ -14,11 +14,13 @@ namespace projekcik
             Klient klient2 = new Klient("Anita", "Zielona", "34567890123", "777888999", 21, "ccc@abc.com", 21);
             Pracownik pracownik1 = new Pracownik("Paweł", "Jumper", "45678901234", "666777888", 33, "ddd@abc.com");
             Pracownik pracownik2 = new Pracownik("Juliusz", "Cezar", "56789012345", "767878989", 27, "eee@abc.com");
-            Film film1 = new Film("Spiderman", EnumGatunek.przygodowy, 93, "Spike Lee", "Rumunia", 32);
+            Film film1 = new Film("Spiderman", Film.EnumGatunek.przygodowy, 93, "Spike Lee", "Rumunia", 32);
             Wypozyczenie wypozyczenie1 = new Wypozyczenie(film1, klient1, "21/01/2021", "21/03/2021");
             Wypozyczenie wypozyczenie2 = new Wypozyczenie(film1, klient2, "22/01/2022", "23/01/2022");
             Wypozyczalnia wypozyczalnia1 = new Wypozyczalnia("Halko", 2.40, 3.50);
             wypozyczalnia1.UmiescPracownikow(pracownik1);
+            wypozyczalnia1.UmiescKlienta(klient1);
+            wypozyczalnia1.UmiescKlienta(klient2);
             wypozyczalnia1.UmiescPracownikow(pracownik2);
             wypozyczalnia1.UmiescWypozyczenia(wypozyczenie1);
             wypozyczalnia1.UmiescWypozyczenia(wypozyczenie2);

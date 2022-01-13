@@ -1,0 +1,39 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="GUI.Window_Film"
+        mc:Ignorable="d"
+        Title="Window_Film" Height="450" Width="800">
+    <Grid>
+        <Label Content="Tytuł film" HorizontalAlignment="Left" Height="45" Margin="10,10,0,0" VerticalAlignment="Top" Width="80"/>
+        <Label Content="Rezyser" HorizontalAlignment="Left" Height="30" Margin="10,60,0,0" VerticalAlignment="Top" Width="55"/>
+        <Label Content="Kraj produkcji" HorizontalAlignment="Left" Height="30" Margin="10,110,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Długość (w min)" HorizontalAlignment="Left" Height="35" Margin="10,165,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label Content="Gatunek" HorizontalAlignment="Left" Height="25" Margin="10,220,0,0" VerticalAlignment="Top" Width="80"/>
+        <ComboBox x:Name="GatunekCombo" HorizontalAlignment="Left" Height="25" Margin="145,220,0,0" VerticalAlignment="Top" Width="170">
+            <System:String>horror</System:String>
+            <System:String>western</System:String>
+            <System:String>wojenny</System:String>
+            <System:String>dramat</System:String>
+            <System:String>melodramat</System:String>
+            <System:String>sensacyjny</System:String>
+            <System:String>musical</System:String>
+            <System:String>przygodowy</System:String>
+            <System:String>kryminał</System:String>
+            <System:String>fantasy</System:String>
+            <System:String>komedia</System:String>
+        </ComboBox>
+        <TextBox x:Name="DlugoscTXT" HorizontalAlignment="Left" Height="35" Margin="145,165,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="KrajTXT" HorizontalAlignment="Left" Height="30" Margin="145,110,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="ReżyserTXT" HorizontalAlignment="Left" Height="30" Margin="145,60,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="130"/>
+        <TextBox x:Name="TytTXT" HorizontalAlignment="Left" Height="30" Margin="145,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="130"/>
+        <Button x:Name="ZATbutton" Content="Zatwierdź" HorizontalAlignment="Left" Height="30" Margin="30,320,0,0" VerticalAlignment="Top" Width="145" Click="ZATbutton_Click"/>
+        <Button x:Name="AnulujBUTTON" Content="Anuluj" HorizontalAlignment="Left" Height="30" Margin="225,320,0,0" VerticalAlignment="Top" Width="160" Click="AnulujBUTTON_Click"/>
+        <TextBox x:Name="CenaTXT" HorizontalAlignment="Left" Height="20" Margin="145,274,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="80" />
+        <Label Content="Cena" HorizontalAlignment="Left" Height="45" Margin="10,270,0,0" VerticalAlignment="Top" Width="55"/>
+
+    </Grid>
+</Window>
