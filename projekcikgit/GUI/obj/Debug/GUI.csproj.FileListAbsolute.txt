@@ -19,3 +19,9 @@ C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\GUI\bin\Debu
 C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\GUI\bin\Debug\projekcik.exe.config
 C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\GUI\obj\Debug\Window_Film.g.cs
 C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\GUI\obj\Debug\Window_Film.baml
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\GUI\obj\Debug\Window_Nazwa.g.cs
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\GUI\obj\Debug\Window_Nazwa.baml
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\GUI\obj\Debug\Window_Pracownik.g.cs
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\GUI\obj\Debug\Window_Pracownik.baml
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\GUI\obj\Debug\Wypożyczenie.g.cs
+C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\GUI\obj\Debug\Wypożyczenie.baml

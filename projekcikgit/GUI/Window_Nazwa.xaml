@@ -1,0 +1,16 @@
+﻿<Window x:Class="GUI.Window_Nazwa"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="Window_Nazwa" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="NAZWA_TXT" HorizontalAlignment="Left" Height="50" Margin="180,165,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="345"/>
+        <Label Content="Nazwa" HorizontalAlignment="Left" Height="35" Margin="180,105,0,0" VerticalAlignment="Top" Width="345" Background="#FF82DADF" OpacityMask="#FFBA2E2E"/>
+        <Button x:Name="ZatBTN" Content="Zatwierdź" HorizontalAlignment="Left" Height="35" Margin="180,260,0,0" VerticalAlignment="Top" Width="120" Click="ZatBTN_Click"/>
+        <Button x:Name="AnBTN" Content="Anuluj" HorizontalAlignment="Left" Height="35" Margin="400,260,0,0" VerticalAlignment="Top" Width="125" Click="AnBTN_Click"/>
+
+    </Grid>
+</Window>

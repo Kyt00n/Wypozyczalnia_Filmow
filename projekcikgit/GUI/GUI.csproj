@@ -58,6 +58,15 @@
     <Compile Include="Window_Film.xaml.cs">
       <DependentUpon>Window_Film.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window_Nazwa.xaml.cs">
+      <DependentUpon>Window_Nazwa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Window_Pracownik.xaml.cs">
+      <DependentUpon>Window_Pracownik.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Wypożyczenie.xaml.cs">
+      <DependentUpon>Wypożyczenie.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,6 +80,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Window_Film.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window_Nazwa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Window_Pracownik.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Wypożyczenie.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

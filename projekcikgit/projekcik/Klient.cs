@@ -23,7 +23,7 @@ namespace projekcik
         /// </summary>
         public Klient()
         {
-
+            
         }
         /// <summary>
         /// Konstruktor parametryczny
