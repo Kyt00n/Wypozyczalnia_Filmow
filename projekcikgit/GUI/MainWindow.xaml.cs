@@ -125,10 +125,13 @@ namespace GUI
         private void ZapisBTN_Click(object sender, RoutedEventArgs e)
         {
             Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();
+            dlg.DefaultExt = "xml";
+            dlg.AddExtension = true;
             Nullable<bool> result = dlg.ShowDialog();
             if (result == true)
             {
                 string filename = dlg.FileName;
+                
                 wypozyczalnia.Nazwa = nazwaWyptxt.Text;
                 wypozyczalnia.ZapiszXML(filename);
             }
