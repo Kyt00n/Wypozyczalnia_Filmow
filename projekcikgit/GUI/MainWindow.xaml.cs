@@ -149,15 +149,20 @@ namespace GUI
             Microsoft.Win32.OpenFileDialog dlg = new Microsoft.Win32.OpenFileDialog();
             dlg.Filter = "(XML)|*.xml";
             bool? result = dlg.ShowDialog();
-
+            
             if (result == true) {
                 string filename = dlg.FileName;
                 wypozyczalnia = Wypozyczalnia.OdczytajXML(filename);
-            
-            
-            
+                PracownicyList.ItemsSource = new ObservableCollection<Pracownik>(wypozyczalnia.Pracownicy);
+                nazwaWyptxt.Text = wypozyczalnia.Nazwa;
+                FilmList.ItemsSource = new ObservableCollection<Film>(wypozyczalnia.Katalog);
+                WypozyczeniaList.ItemsSource = new ObservableCollection<Wypozyczenie>(wypozyczalnia.Wypozyczenia);
+                KlienciList.ItemsSource = new ObservableCollection<Klient>(wypozyczalnia.Klienci);
+
+
             }
-        
+            
+
         
         }
 
