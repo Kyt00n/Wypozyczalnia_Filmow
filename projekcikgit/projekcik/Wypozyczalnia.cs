@@ -207,7 +207,10 @@ namespace projekcik
         /// <summary>
         /// Konstruktor parametryczny
         /// </summary>
-       
+        public Wypozyczalnia(string nazwa) : this()
+        {
+            this.Nazwa = nazwa;
+        }
         public Wypozyczalnia(string nazwa, double oplata_podstawowa, double oplata_dodatkowa) : this()
         {
             this.Nazwa = nazwa;

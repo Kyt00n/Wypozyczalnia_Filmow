@@ -20,3 +20,4 @@ C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\projekcik\bi
 C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\projekcik\bin\Debug\projekcik.exe.config
 C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\projekcik\bin\Debug\projekcik.exe
 C:\Users\admin\Desktop\Projekt PO\Wypozyczalnia_Filmow\projekcikgit\projekcik\obj\Debug\projekcik.exe
+C:\Users\ero20\Documents\GitHub\Wypozyczalnia_Filmow\projekcikgit\projekcik\bin\Debug\projekcik_dokumentacja.xml

@@ -424,7 +424,7 @@
             <param name="gatunek">Pozwala określić gatunek którego poszukujemy</param>
             <returns>Zwraca napis z filmami danego gatunku</returns>
         </member>
-        <member name="M:projekcik.Wypozyczalnia.#ctor(System.String,System.Double,System.Double)">
+        <member name="M:projekcik.Wypozyczalnia.#ctor(System.String)">
             <summary>
             Konstruktor parametryczny
             </summary>

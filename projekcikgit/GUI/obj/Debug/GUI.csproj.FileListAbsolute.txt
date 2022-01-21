@@ -78,3 +78,4 @@ C:\Users\admin\Documents\GitHub\Wypozyczalnia_Filmow\projekcikgit\GUI\obj\Debug\
 C:\Users\admin\Documents\GitHub\Wypozyczalnia_Filmow\projekcikgit\GUI\obj\Debug\GUI.csproj.CopyComplete
 C:\Users\admin\Documents\GitHub\Wypozyczalnia_Filmow\projekcikgit\GUI\obj\Debug\GUI.exe
 C:\Users\admin\Documents\GitHub\Wypozyczalnia_Filmow\projekcikgit\GUI\obj\Debug\GUI.pdb
+C:\Users\ero20\Documents\GitHub\Wypozyczalnia_Filmow\projekcikgit\GUI\obj\Debug\GUI.csproj.CopyComplete

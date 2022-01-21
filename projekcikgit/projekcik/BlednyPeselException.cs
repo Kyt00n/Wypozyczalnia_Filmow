@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace projekcik
 {
-    class BlednyPeselException : Exception
+    public class BlednyPeselException : Exception
     {
     }
 }
