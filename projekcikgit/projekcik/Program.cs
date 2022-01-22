@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,8 +9,34 @@ namespace projekcik
 {
     class Program
     {
+        static FileStream fs;
+        static StreamWriter sw;
+        public delegate void Przywitanie(string s);
+        public static void Wypisz(string s)
+        {
+            Console.WriteLine(s);
+        }
+        public static void Zapisz(string s)
+        {
+            fs = new FileStream(".\\wiadomosc.txt", FileMode.Append, FileAccess.Write);
+            sw = new StreamWriter(fs);
+            sw.WriteLine(s);
+            sw.Flush();
+            sw.Close();
+            fs.Close();
+        }
+        public static void SendString(Przywitanie p)
+        {
+            p("Autorzy projektu: \nEryk Olsza \nWiktoria Skowron\nWojciech Smolarczyk\nMichal Swiderek");
+        }
         static void Main(string[] args)
         {
+
+            Przywitanie p1 = new Przywitanie(Wypisz);
+            Przywitanie p2 = new Przywitanie(Zapisz);
+            SendString(p1);
+            SendString(p2);
+            
             Klient klient1 = new Klient("Marek", "Nowak", "23456789012", "888999111", 18, "bbb@abc.com", 32);
             Klient klient2 = new Klient("Anita", "Zielona", "34567890123", "777888999", 21, "ccc@abc.com", 21);
             Pracownik pracownik1 = new Pracownik("Paweł", "Jumper", "45678901234", "666777888", 33, "ddd@abc.com");

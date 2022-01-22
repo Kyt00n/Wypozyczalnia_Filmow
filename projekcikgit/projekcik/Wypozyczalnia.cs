@@ -20,6 +20,8 @@ namespace projekcik
         string nazwa;
         double oplata_podstawowa;
         double oplata_dodatkowa;
+
+        
         /// <summary>
         /// Hermetyzacja Listy z Wypożyczeniami
         /// </summary>
