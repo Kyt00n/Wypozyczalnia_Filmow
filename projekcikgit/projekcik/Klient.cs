@@ -39,7 +39,7 @@ namespace projekcik
             NumerTelefonu = numerTelefonu;
             Wiek = wiek;
             Email = email;
-            
+           
         }
         /// <summary>
         /// Funkcja dostracza danych o kliencie
