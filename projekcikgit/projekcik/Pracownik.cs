@@ -35,7 +35,7 @@ namespace projekcik
         
         public Pracownik(string imie, string nazwisko, string pesel, string numerTelefonu, int wiek, string email) : this()
         {
-            
+           
             Imie = imie;
             Nazwisko = nazwisko;
             Pesel = pesel;
