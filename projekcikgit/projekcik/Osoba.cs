@@ -73,7 +73,7 @@ namespace projekcik
             // 11 liczb
             if (!Regex.IsMatch(pesel, @"^1?(\d{11})"))
                 throw new BlednyPeselException();
-
+            
             return Regex.IsMatch(pesel, @"^1?(\d{11})");
         }
         /// <summary>
